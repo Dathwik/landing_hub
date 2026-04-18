@@ -138,7 +138,7 @@ export default function Home() {
 
             {/* Footer — only visible on desktop in left panel */}
             <p className="hidden lg:block text-[10px] text-white/20 tracking-[0.3em] uppercase font-mono mt-auto pt-8">
-              © 2025 Dathwik Kollikonda
+              © 2026 Dathwik Kollikonda
             </p>
           </div>
 
@@ -189,7 +189,7 @@ export default function Home() {
 
             {/* Footer — mobile only */}
             <p className="lg:hidden text-[10px] text-white/20 mt-4 tracking-[0.3em] uppercase font-mono text-center">
-              © 2025 Dathwik Kollikonda
+              © 2026 Dathwik Kollikonda
             </p>
           </div>
 
