@@ -6,22 +6,15 @@ import {
   FaGithub,
   FaEnvelope,
   FaArrowUpRightFromSquare,
-  FaDumbbell,
   FaCode,
+  FaDumbbell,
   FaVideo,
   FaGlobe,
   FaLaptopCode,
 } from "react-icons/fa6";
+import PortfolioLink from "./components/PortfolioLink";
 
 const links = [
-  {
-    label: "Tech Portfolio",
-    description: "Projects, skills & experience",
-    href: "https://portfolio.dathwik.com",
-    icon: <FaCode size={20} />,
-    iconBg: "bg-[#ff2d78]",
-    border: "border-[#ff2d78]/30 hover:border-[#ff2d78] hover:shadow-[0_0_24px_rgba(255,45,120,0.35)]",
-  },
   {
     label: "LinkedIn",
     description: "Professional network & career",
@@ -155,6 +148,8 @@ export default function Home() {
             <p className="hidden lg:block text-[11px] text-[#ff2d78]/60 font-mono uppercase tracking-[0.3em] mb-2">
               ◈ Navigate
             </p>
+
+            <PortfolioLink />
 
             {links.map((link) => (
               <a
