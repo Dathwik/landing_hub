@@ -9,6 +9,8 @@ import {
   FaDumbbell,
   FaCode,
   FaVideo,
+  FaGlobe,
+  FaLaptopCode,
 } from "react-icons/fa6";
 
 const links = [
@@ -64,6 +66,8 @@ const links = [
 
 const pillars = [
   { icon: <FaCode size={12} />, label: "Software Engineer", color: "text-[#00e5ff]" },
+  { icon: <FaGlobe size={12} />, label: "Web Developer", color: "text-[#bf00ff]" },
+  { icon: <FaLaptopCode size={12} />, label: "Frontend Developer", color: "text-[#00e5ff]" },
   { icon: <FaDumbbell size={12} />, label: "Fitness Enthusiast", color: "text-[#ff2d78]" },
   { icon: <FaVideo size={12} />, label: "Content Creator", color: "text-[#bf00ff]" },
 ];
